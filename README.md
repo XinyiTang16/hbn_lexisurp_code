@@ -31,7 +31,7 @@ The R packages used for the GAM analysis are listed at the beginning of the scri
 ## Folder structure
 
 #### `0_video_feature`
-- `1_get_linguistic_regressor.ipynb`: extracts linguistic features (lexical surprisal and word frequency) from the movie stimulus.
+- `1_get_linguistic_regressor.ipynb`: extracts linguistic features from the movie stimulus.
 - `2_process_features.ipynb`: resamples and combines the regressors for the encoding model
 
 #### `1_encoding_model`
@@ -41,7 +41,7 @@ The R packages used for the GAM analysis are listed at the beginning of the scri
 
 #### `2_lexisurp_selectivity`
 - `unthres_ROI/`: unthresholded ROI masks for language, multiple demand (MD), and theory of mind (ToM) networks.
-- `wholebrain_and_ROI_analysis.ipynb`: computes group-level whole-brain maps, as well as ROI-level results from subject-level encoding outputs.
+- `wholebrain_and_ROI_analysis.ipynb`: computes group-level whole-brain and ROI-level results from subject-level encoding outputs.
 
 #### `3_GAM`
 - `GAM_analysis_with_plots.R`: fits GAMs, estimates derivatives, and tests age-by-network interactions.
@@ -59,4 +59,4 @@ The R packages used for the GAM analysis are listed at the beginning of the scri
 
 ## Data
 
-In accordance with the privacy policies of HBN dataset, the imaging and behavioral data used in the analysis are not included in this repository. Information about accessing the HBN dataset is available at: https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/.
+In accordance with the HBN Data Usage Agreement, the original imaging and behavioral data used in this study cannot be redistributed without authorized access. Researchers interested in accessing the dataset can find information about obtaining the HBN dataset at: https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/.
