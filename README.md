@@ -6,13 +6,13 @@ This repository contains the analysis pipeline for manuscript: "Contextual predi
 
 The pipeline is organized into seven analysis stages:
 
-1. **0_video_feature**: Extract and preprocess movie feature regressors.
-2. **1_encoding_model**: Fit voxelwise encoding models using 10 movie features.
-3. **2_lexisurp_selectivity**: Analyze lexical surprisal encoding at whole-brain and ROI levels.
-4. **3_GAM**: Estimate developmental trajectories of surprisal encoding using generalized additive models (GAMs).
-5. **4_behavioral_prediction**: Test whether network-level surprisal encoding predicts behavioral measures.
-6. **5_IS_RSA**: Perform inter-subject representational similarity analysis (IS-RSA) between neural and developmental model matrices
-7. **6_ISPS_segment**: Analyze inter-subject phase synchrony (ISPS) and its association with surprisal feature.
+- **0_video_feature**: Extract and preprocess movie feature regressors.
+- **1_encoding_model**: Fit voxelwise encoding models using 10 movie features.
+- **2_lexisurp_selectivity**: Analyze lexical surprisal encoding at whole-brain and ROI levels.
+- **3_GAM**: Estimate developmental trajectories of surprisal encoding using generalized additive models (GAMs).
+- **4_behavioral_prediction**: Test whether network-level surprisal encoding predicts behavioral measures.
+- **5_IS_RSA**: Perform inter-subject representational similarity analysis (IS-RSA) between neural and developmental model matrices
+- **6_ISPS_segment**: Analyze inter-subject phase synchrony (ISPS) and its association with surprisal feature.
 
 ## Environment
 
