@@ -1,0 +1,23 @@
+name: hbn_lexisurp_code
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel=6.29.5=pyh57ce528_0
+  - pip=24.2=py312hca03da5_0
+  - python=3.12.2=hdf0ec26_0_cpython
+  - pip:
+      - h5py==3.11.0
+      - himalaya==0.4.6
+      - joblib==1.4.2
+      - matplotlib==3.7.3
+      - nibabel==5.3.1
+      - nilearn==0.10.4
+      - numpy==1.26.4
+      - pandas==1.3.5
+      - scikit-learn==1.6.1
+      - scipy==1.14.1
+      - seaborn==0.11.2
+      - statsmodels==0.14.1
+      - torch==2.8.0
+      - tqdm==4.67.1
