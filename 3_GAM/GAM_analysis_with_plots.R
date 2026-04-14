@@ -45,7 +45,6 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 library(patchwork)  
-library(gratia)
 library(parallel)
 library(scales)
 

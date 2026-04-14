@@ -186,7 +186,7 @@ for net in networks:
 
         # Save null distribution plot
         plt.figure(figsize=(10,7))
-        plt.hist(r_null, bins=50, alpha=0.7, label="Null")
+        plt.hist(np.tanh(r_null), bins=50, alpha=0.7, label="Null")
         plt.axvline(real_mean_r, linestyle='--', color='red', label=f"Mean true r = {real_mean_r:.3f}")
         plt.xlabel("r")
         plt.ylabel("Frequency")
